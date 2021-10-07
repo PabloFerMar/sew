@@ -13,7 +13,6 @@
 
 <body>
     <h1>Brian Kernighan y Dennis Ritchie</h1>
-    
     <nav>
         <ul>
             <li><a href="/sew/" accesskey="I" tabindex="1">Inicio</a></li>
@@ -22,36 +21,37 @@
             <li><a href="/sew/opiniones" accesskey="O" tabindex="4">Opiniones</a></li>
         </ul>
     </nav>
-
-    <h2>¿Qué opinas?</h2>
-    <p>Rellene este formulario con su opinión sobre Dennis Ritchie y Brian Kernighan, sus aportaciones, logros y trabajos</p>
-
-    <form name="opiniones">
-        <fieldset>
-            <legend>¿Quien eres?</legend>
-            <p><label for="nombreText">Escribe tu nombre: <input id="nombreText" type="text"></label></p>
-            <p><label for="apellidoText">Escribe tus apellidos: <input id="apellidoText" type="text"></label></p>
-            <p><label for="fechaNac">Fecha de nacimiento <input id="fechaNac" type="date"></label></p>
-            <p><label for="correo">Correo <input id="correo" type="email"></label></p>
-        </fieldset>
-        <fieldset>
-            <legend> ¿Qué opinas de la información mostrada? </legend>
-            <p><label for="opInfo1"> <input id="opInfo1" type = radio name=OpInfo> Muy buena </label></p>
-            <p><label for="opInfo2"> <input id="opInfo2" type = radio name=OpInfo> Regular </label></p>
-            <p><label for="opInfo3"> <input id="opInfo3" type = radio name=OpInfo> Mala </label></p>
-        </fieldset>
-        <fieldset>
-            <legend>¿A quién conocias?</legend>
-            <p><label for="conocia1Check"> <input id="conocia1Check" type="checkbox"> Dennis Ritchie </label></p>
-            <p><label for="conocia2Check"> <input id="conocia2Check" type="checkbox"> Brian Kernighan </label></p>
-        </fieldset>
-        <fieldset>
-            <legend>Escribe tu opinión</legend>
-            <p><label for="textAreaOp"> ¿Qué opinas?<textarea id="textAreaOp"></textarea> </label></p>
-        </fieldset>
-        <input type="submit" value="Enviar" >
-    </form>
-
+    <article>  
+        <h2>¿Qué opinas?</h2>
+        <p>Rellene este formulario con su opinión sobre Dennis Ritchie y Brian Kernighan, sus aportaciones, logros y trabajos</p>
+        <section>
+            <form name="opiniones">
+                <fieldset>
+                    <legend>¿Quien eres?</legend>
+                    <p><label for="nombreText">Escribe tu nombre: <input id="nombreText" type="text"></label></p>
+                    <p><label for="apellidoText">Escribe tus apellidos: <input id="apellidoText" type="text"></label></p>
+                    <p><label for="fechaNac">Fecha de nacimiento <input id="fechaNac" type="date"></label></p>
+                    <p><label for="correo">Correo <input id="correo" type="email"></label></p>
+                </fieldset>
+                <fieldset>
+                    <legend> ¿Qué opinas de la información mostrada? </legend>
+                    <p><label for="opInfo1"> <input id="opInfo1" type = radio name=OpInfo> Muy buena </label></p>
+                    <p><label for="opInfo2"> <input id="opInfo2" type = radio name=OpInfo> Regular </label></p>
+                    <p><label for="opInfo3"> <input id="opInfo3" type = radio name=OpInfo> Mala </label></p>
+                </fieldset>
+                <fieldset>
+                    <legend>¿A quién conocias?</legend>
+                    <p><label for="conocia1Check"> <input id="conocia1Check" type="checkbox"> Dennis Ritchie </label></p>
+                    <p><label for="conocia2Check"> <input id="conocia2Check" type="checkbox"> Brian Kernighan </label></p>
+                </fieldset>
+                <fieldset>
+                    <legend>Escribe tu opinión</legend>
+                    <p><label for="textAreaOp"> ¿Qué opinas?<textarea id="textAreaOp"></textarea> </label></p>
+                </fieldset>
+                <input type="submit" value="Enviar" >
+            </form>
+        </section>
+    </article>
     <footer>
         <img src="multimedia/HTML5.png" alt=" HTML5 Válido!" />
         <img src="multimedia/CSS3.png"  alt="CSS Válido!"  />

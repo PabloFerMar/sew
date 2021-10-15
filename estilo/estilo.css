@@ -1,1 +1,24 @@
-/*vacio*/
+/*a=0,b=0,c=1 - 001*/
+body{
+    font-family: Helvetica, Verdana, sans-serif;
+    color:rgb(0, 102, 0);
+}
+
+/*a=0,b=0,c=1 - 001*/
+h1{
+    font-weight: bold;
+}
+
+/*a=0,b=0,c=3 - 003*/
+article section h2{
+    color: #000000;
+}
+
+/*a=0,b=0,c=3 - 002*/
+fieldset legend{
+    color: #000000;
+}
+/*a=0,b=0,c=3 - 003*/
+section ul li{
+    font-style: italic;
+}

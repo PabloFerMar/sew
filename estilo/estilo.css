@@ -41,6 +41,11 @@ img {
     width: 15%; 
     height: auto;
 }
+/*a=0,b=0,c=2 - 002*/
+footer img {
+    width: 5%; 
+    height: auto;
+}
 /*a=0,b=0,c=1 - 001*/
 video{
     max-width: 15%;

@@ -1,0 +1,32 @@
+/*a=0,b=0,c=1 - 001*/
+body{
+    display: grid;
+    grid-gap: 10px;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "header header header"
+        "main main right"
+        "footer footer footer";
+}
+/*a=0,b=0,c=1 - 001*/
+header{
+    grid-area: header;
+}
+/*a=0,b=0,c=1 - 001*/
+main{
+    grid-area: main;
+}
+/*a=0,b=0,c=1 - 001*/
+article{
+    grid-area: main;
+}
+/*a=0,b=0,c=1 - 001*/
+aside{
+    grid-area: right;
+}
+/*a=0,b=0,c=1 - 001*/
+footer{
+    grid-area: footer;
+}

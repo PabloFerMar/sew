@@ -8,15 +8,15 @@ body{
 }
 /*a=0,b=0,c=1 - 001*/
 nav{
-    padding: 3em;
+    padding: 0.5em;
     color: #E4FFD6;
     background-color: #006100;
     border-radius: 1.5em;
 }
 /*a=0,b=0,c=1 - 001*/
 aside{
-    padding: 1.5em;
-    margin: 2em;
+    padding: 0.5em;
+    margin: 0.9em;
 }
 /*a=0,b=1,c=1 - 011*/
 a:hover{
@@ -25,10 +25,9 @@ a:hover{
 }
 /*a=0,b=0,c=2 - 002*/
 nav a{
-    font-size: 1.4em;
+    font-size: 1.2em;
     color: #E4FFD6;
     background-color: #006100;
-    padding: 0.5em;
 }
 /*a=0,b=0,c=1 - 001*/
 h1{
@@ -50,7 +49,7 @@ section ul li{
 }
 /*a=0,b=0,c=3 - 003*/
 nav ul li{
-    padding: 0.5em;
+    padding: 0.2em;
 }
 /*a=0,b=0,c=3 - 003*/
 table tr th{

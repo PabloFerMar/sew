@@ -7,6 +7,30 @@ body{
     padding: 1.5em;
 }
 /*a=0,b=0,c=1 - 001*/
+nav{
+    padding: 3em;
+    color: #E4FFD6;
+    background-color: #006100;
+    border-radius: 1.5em;
+}
+/*a=0,b=0,c=1 - 001*/
+aside{
+    padding: 1.5em;
+    margin: 2em;
+}
+/*a=0,b=1,c=1 - 011*/
+a:hover{
+    color: #FF0000;  
+    background-color: #006100;
+}
+/*a=0,b=0,c=2 - 002*/
+nav a{
+    font-size: 1.4em;
+    color: #E4FFD6;
+    background-color: #006100;
+    padding: 0.5em;
+}
+/*a=0,b=0,c=1 - 001*/
 h1{
     font-weight: bold;
     text-align: center;
